@@ -1,0 +1,25 @@
+#button {
+    margin-left: 450px;
+    margin-top: 50px;
+    width: 150px;
+    height: 100px;
+
+}
+
+.window {
+    width: 80px;
+    height: 80px;
+    fill: gold;
+    position: relative;
+}
+
+#door {
+    fill: saddlebrown;
+}
+
+#house {
+    width: 400px;
+    height: 300px;
+    fill: rosybrown;
+    position: relative;
+}

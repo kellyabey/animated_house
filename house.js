@@ -1,32 +1,31 @@
 $(document).ready(function () {
-    $("button").click(function () {
-        $(".window")
+    $("#earthquake").click(function () {
+        $("#img")
             .animate({
-                width: "40px"
-            })
+                marginLeft: "600px"
+            }, "fast")
             .animate({
-                height: "40px"
-            })
+                marginRight: "500px"
+            }, "fast")
             .animate({
-                marginRight: "600px"
-            })
+                marginLeft: "600px"
+            }, "fast")
+            .animate({
+                marginRight: "500px"
+            }, "fast")
+            .animate({
+                marginLeft: "550px"
+            }, "fast");
     });
 });
 
 $(document).ready(function () {
-    $("button").click(function () {
-        $("#door")
-            .animate({
-                width: "toggle"
-            });
-    });
-});
-
-$(document).ready(function () {
-    $("button").click(function () {
-        $("#chim")
-            .animate({
-                height: "toggle"
-            });
+    $("#small").click(function () {
+        $("#img").animate({
+            top: "-=50px",
+            left: "-=50px",
+            width: "-=50px",
+            height: "-=50px"
+        });
     });
 });

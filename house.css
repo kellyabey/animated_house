@@ -1,25 +1,21 @@
-#button {
-    margin-left: 450px;
-    margin-top: 50px;
+#earthquake {
+    position: absolute;
     width: 150px;
     height: 100px;
-
+    margin-left: 670px;
+    margin-top: 150px;
 }
 
-.window {
-    width: 80px;
-    height: 80px;
-    fill: gold;
-    position: relative;
+#small {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+   margin-left: 470px;
+  margin-top: 150px;
 }
 
-#door {
-    fill: saddlebrown;
-}
-
-#house {
-    width: 400px;
-    height: 300px;
-    fill: rosybrown;
-    position: relative;
+#img {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 250px;
 }
